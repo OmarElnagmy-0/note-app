@@ -42,7 +42,7 @@ class LoginScreen extends StatelessWidget {
               style: TextStyle(
                 fontSize: 28,
                 fontWeight: FontWeight.bold,
-                color: Colors.white,
+                color: Color(0xFF26A69A),
               ),
             ),
             const SizedBox(height: 10),
@@ -129,12 +129,13 @@ class LoginScreen extends StatelessWidget {
                 }
               },
               style: ElevatedButton.styleFrom(
-                minimumSize: Size(double.infinity, 50),
-                backgroundColor: Colors.teal[600],
+                minimumSize: Size(double.infinity, 55),
+                backgroundColor: Color(0xFF26A69A),
                 foregroundColor: Colors.white,
                 textStyle: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
+                elevation: 3,
                 shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(10),
+                  borderRadius: BorderRadius.circular(12),
                 ),
               ),
               child: Text("Sign In"),

@@ -21,7 +21,7 @@ class NoteBloc extends Bloc<NoteEvent, NoteState> {
 
     on<EditNote>((event, emit) async {
       await NoteDatabase.editNote(
-        Note(title: event.title, description: event.description),
+        Note(id: event.id, title: event.title, description: event.description),
         event.id,
       );
       final notes = await NoteDatabase.getNotes();
