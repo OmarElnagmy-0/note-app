@@ -1,16 +1,21 @@
-# notes_app
+# Notes App
 
-A new Flutter project.
+A simple Flutter notes application with user authentication and local storage.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- User login with session persistence
+- Create, edit, and delete notes
+- Local SQLite database storage
+- Modern dark theme UI
 
-A few resources to get you started if this is your first Flutter project:
+## Login
+Use these credentials to test the app:
+- Username: admin
+- Password: admin
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Dependencies
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- flutter_bloc: State management
+- sqflite: Local database
+- shared_preferences: Session storage
